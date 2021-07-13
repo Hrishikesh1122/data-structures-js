@@ -38,3 +38,13 @@ function getSecondLasgestNumber(arrayOfRandomNumbers) {
 }
 let result2 = getSecondLasgestNumber(arrayOfRandomNumbers);
 console.log(result2);
+
+
+//Case 2 : Extend case 1 to sort the array 
+//Find second largest and second smallest number
+arrayOfRandomNumbers.sort()
+console.log(arrayOfRandomNumbers)
+//For second smallest
+console.log(arrayOfRandomNumbers[1])
+//For second largest
+console.log(arrayOfRandomNumbers[arrayOfRandomNumbers.length-2])
